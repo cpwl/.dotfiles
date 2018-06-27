@@ -89,17 +89,6 @@ export VISUAL='/usr/bin/nvim'
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-
-
-
-
-
-alias yaourt="yaourt --noconfirm"
-alias neofetch="neofetch --disable theme icons uptime resolution cpu gpu uptime packages kernel"
-#--ascii ~/scripts/asciitux"
-alias lock="lock.sh"
-
-
-
+source $HOME/.aliases
 
 neofetch
