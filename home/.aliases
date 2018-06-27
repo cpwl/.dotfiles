@@ -1,0 +1,5 @@
+alias yaourt="yaourt --noconfirm"
+alias neofetch="neofetch --disable theme icons uptime resolution cpu gpu uptime packages kernel"
+#--ascii ~/scripts/asciitux"
+alias lock="lock.sh"
+
