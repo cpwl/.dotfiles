@@ -43,10 +43,10 @@ bindsym $mod+Shift+r restart
 bindsym $mod+x exec terminator --execute ranger
 
 # Exit (logs out of your X session)
-bindsym $mod+Shift+q exec i3-msg exit # "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+q exec i3-msg exit 
 
 # Toggle bar
-bindsym $mod+y exec i3 bar mode toggle§
+# bindsym $mod+y exec i3 bar mode toggle§
 
 
 # System
@@ -157,35 +157,11 @@ bindsym $mod+r mode "resize"
 
 
 
-
-# Settings
-#bar {
-#        font pango:roboto-mono 9
-#        position top
-#        mode hide
-#        modifier $mod
-#        # Command for showing status info
-#       # status_command i3blocks
-#
-#        colors {
-#                background $black
-#                statusline $accent
-#                separator $accent
-#
-#                # ---| border | bg | fg |---
-#                focused_workspace $accent $accent $black
-#                active_workspace $black $black $accent
-#                inactive_workspace $black $black $accent
-#                urgent_workspace $black $black $urgent
-#        }
-#}
-
 bindsym $mod+Tab sticky toggle
 
 # System font
 
-bindsym $mod+a exec feh -g 405x540+1110+245 /home/cam/Downloads/IMG_1924.jpg
-
+bindsym $mod+a focus parent 
 bindsym $mod+t exec ~/bar
 
 
